@@ -1,0 +1,38 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "FunctionalAnalysisPkg.sbs";
+		- _subsystem = "FunctionalAnalysisPkg";
+		- _class = "";
+		- _name = "AccesPatrolbotPkg";
+		- _id = GUID c43e4d5d-4ac9-46a8-9076-97923a661f2f;
+	}
+	- _id = GUID f0c0863e-679b-403e-8c7b-d82d91dcdb63;
+	- _myState = 8192;
+	- _name = "AccesPatrolbotBBScenariosPkg";
+	- _modifiedTimeWeak = 4.8.2015::13:28:37;
+	- weakCGTime = 4.8.2015::13:28:37;
+	- strongCGTime = 4.8.2015::13:28:37;
+	- _defaultComposite = GUID 4f18dfdf-e044-4fb0-a4ee-945996ecf835;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 4f18dfdf-e044-4fb0-a4ee-945996ecf835;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- weakCGTime = 1.1.1970::1:0:0;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

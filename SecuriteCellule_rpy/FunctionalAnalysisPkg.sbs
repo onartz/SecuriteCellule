@@ -1,0 +1,46 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _id = GUID 5659bb82-d018-447f-abad-18e201048413;
+	- _myState = 8192;
+	- _name = "FunctionalAnalysisPkg";
+	- _modifiedTimeWeak = 4.8.2015::13:28:36;
+	- Declaratives = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ ISubsystem 
+			- fileName = "AccesCellulePkg";
+			- _id = GUID 07fd4001-97e1-45cc-b4fd-e73ef4b7ca29;
+		}
+		{ ISubsystem 
+			- fileName = "InterventionArretUrgencePkg";
+			- _id = GUID 778c4979-f1e7-41d9-99cc-d3431eb329f8;
+		}
+		{ ISubsystem 
+			- fileName = "AccesPatrolbotPkg";
+			- _id = GUID c43e4d5d-4ac9-46a8-9076-97923a661f2f;
+		}
+	}
+	- weakCGTime = 4.8.2015::13:28:36;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID 3c06a10b-09ab-4f3f-bdf9-7382fd20b945;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 3c06a10b-09ab-4f3f-bdf9-7382fd20b945;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 4.7.2015::14:48:33;
+			- weakCGTime = 4.7.2015::14:48:33;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

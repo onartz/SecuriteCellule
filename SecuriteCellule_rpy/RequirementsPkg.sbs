@@ -1,0 +1,50 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "RequirementsAnalysisPkg.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "RequirementsAnalysisPkg";
+		- _id = GUID b9295c68-8c6f-488d-93fb-9c87064e75c2;
+	}
+	- _id = GUID 438a6942-f03e-4953-9b6f-c2c525dad616;
+	- _myState = 8192;
+	- _name = "RequirementsPkg";
+	- Annotations = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IRequirement 
+			- _id = GUID 006eda3b-a54e-4539-92ae-1163e6117b1a;
+			- _myState = 8192;
+			- _name = "ReqTest";
+			- _modifiedTimeWeak = 4.8.2015::8:17:4;
+			- _body = "ghjghjghjghj";
+		}
+	}
+	- _modifiedTimeWeak = 4.8.2015::8:17:4;
+	- _lastID = 1;
+	- weakCGTime = 4.8.2015::8:17:4;
+	- strongCGTime = 4.7.2015::14:3:58;
+	- _defaultComposite = GUID 087270c4-5473-418e-8b9f-ba32772da725;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 087270c4-5473-418e-8b9f-ba32772da725;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- weakCGTime = 1.1.1970::1:0:0;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

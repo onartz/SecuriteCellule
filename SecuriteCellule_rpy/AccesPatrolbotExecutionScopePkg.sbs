@@ -1,0 +1,114 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6107223
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "FunctionalAnalysisPkg.sbs";
+		- _subsystem = "FunctionalAnalysisPkg";
+		- _class = "";
+		- _name = "AccesPatrolbotPkg";
+		- _id = GUID c43e4d5d-4ac9-46a8-9076-97923a661f2f;
+	}
+	- _id = GUID 6bb937c0-77bd-48c1-ba3d-9a9a493c9267;
+	- _myState = 8192;
+	- _name = "AccesPatrolbotExecutionScopePkg";
+	- _modifiedTimeWeak = 4.8.2015::13:28:37;
+	- weakCGTime = 4.8.2015::13:28:37;
+	- strongCGTime = 4.8.2015::13:28:37;
+	- _defaultComposite = GUID 959bba7b-d913-4238-86d4-7bb8e86d1609;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 959bba7b-d913-4238-86d4-7bb8e86d1609;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 4.8.2015::13:28:37;
+			- weakCGTime = 4.8.2015::13:28:37;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IPart 
+					- _id = GUID 2a3041cd-83e2-42d0-bc84-6040c7b53be7;
+					- _myState = 8192;
+					- _name = "itsUc_AccesPatrolbot";
+					- _modifiedTimeWeak = 4.8.2015::13:28:37;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "FunctionalAnalysisPkg.sbs";
+						- _subsystem = "FunctionalAnalysisPkg::AccesPatrolbotPkg";
+						- _class = "";
+						- _name = "Uc_AccesPatrolbot";
+						- _id = GUID 9db7f3cd-4fcc-4762-97d3-8327cf1fb2a9;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID c22510ce-7d28-4543-b4f4-f4a7160fa79e;
+					- _myState = 8192;
+					- _name = "itsPatrolbot";
+					- _modifiedTimeWeak = 4.8.2015::13:28:37;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "Patrolbot";
+						- _id = GUID 9b28ea7c-9935-42ee-a14f-5c1602724be8;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID 2444fc94-ac11-4158-82df-9a0bd5834bad;
+					- _myState = 8192;
+					- _name = "itsUser";
+					- _modifiedTimeWeak = 4.8.2015::13:28:37;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "user";
+						- _id = GUID 18ad7b7b-9a31-41e9-9582-8060f10ac225;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+				{ IPart 
+					- _id = GUID e6e72de4-dd72-46a0-9824-6531eb8cf105;
+					- _myState = 8192;
+					- _name = "itsLRMate200iD";
+					- _modifiedTimeWeak = 4.8.2015::13:28:37;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "ActorPkg.sbs";
+						- _subsystem = "ActorPkg";
+						- _class = "";
+						- _name = "LRMate200iD";
+						- _id = GUID 02a4efdf-d35e-4497-bb2a-dfe6d8d7f73e;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 4.8.2015::13:28:37;
+}
+
